@@ -1,11 +1,17 @@
 # vue-task-manager
 
-A simple task manager written in Vue.
+A simple task manager written in Vue with a json server backend.
 
 ## Project setup
 
 ```
 npm install
+```
+
+### Start the json server backend
+
+```
+npm run backend
 ```
 
 ### Compiles and hot-reloads for development
