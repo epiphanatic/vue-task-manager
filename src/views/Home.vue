@@ -13,6 +13,7 @@ import AddTask from "../components/AddTask";
 export default {
   name: "Home",
   props: {
+    // gets passed via router from App.vue
     showAddTask: Boolean,
   },
   components: {

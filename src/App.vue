@@ -5,6 +5,7 @@
       title="Task Tracker"
       :showAddTask="showAddTask"
     />
+    <!-- passing this allows to catch as a prop in home -->
     <router-view :showAddTask="showAddTask"></router-view>
     <Footer />
   </div>
